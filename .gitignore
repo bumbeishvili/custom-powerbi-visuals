@@ -1,0 +1,41 @@
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Power BI build outputs
+.tmp/
+dist/
+*.pbiviz
+
+# TypeScript
+*.js
+*.js.map
+*.d.ts
+
+# Exceptions for config files
+!webpack.config.js
+!karma.conf.js
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Package lock files (optional - remove these lines if you want to commit them)
+package-lock.json
+yarn.lock
+
+# Logs
+logs/
+*.log
+
+# Test coverage
+coverage/
+.nyc_output/
