@@ -10,7 +10,7 @@
     "pbiviz": "pbiviz",
     "start": "pbiviz start",
     "package": "pbiviz package",
-    "lint": "tslint -c tslint.json -p tsconfig.json"
+    "lint": "eslint src/**/*.ts"
   },
   "dependencies": {
     "@types/d3": "5.7.2",
@@ -19,9 +19,10 @@
     "powerbi-visuals-api": "~3.8.0"
   },
   "devDependencies": {
-    "ts-loader": "6.1.0",
-    "tslint": "^5.18.0",
-    "tslint-microsoft-contrib": "^6.2.0",
-    "typescript": "3.6.3"
+    "ts-loader": "9.5.1",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "typescript": "5.3.3"
   }
 }
