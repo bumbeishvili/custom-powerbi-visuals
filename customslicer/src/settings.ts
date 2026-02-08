@@ -31,6 +31,7 @@ import DataViewObjectsParser = dataViewObjectsParser.DataViewObjectsParser;
 
 export class VisualSettings extends DataViewObjectsParser {
       public dataPoint: dataPointSettings = new dataPointSettings();
+      public itemStyleProp: itemStyleSettings = new itemStyleSettings();
       }
 
     export class dataPointSettings {
@@ -44,5 +45,20 @@ export class VisualSettings extends DataViewObjectsParser {
       public fillRule: string = "";
      // Text Size
       public fontSize: number = 12;
+     }
+
+    export class itemStyleSettings {
+     // Item background color
+      public backgroundColor: string = "#f5f5f5";
+     // Item border color
+      public borderColor: string = "#0078d4";
+     // Item text color
+      public textColor: string = "#333333";
+     // Border width
+      public borderWidth: number = 2;
+     // Item padding
+      public padding: number = 10;
+     // Item margin
+      public margin: number = 5;
      }
 

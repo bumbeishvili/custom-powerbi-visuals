@@ -1,10 +1,18 @@
 {
-  "name": "visual",
-  "description": "default_template_value",
+  "name": "powerbi-custom-slicer",
+  "description": "A customizable Power BI slicer visual with All option and flexible styling",
+  "version": "1.0.0",
   "repository": {
-    "type": "default_template_value",
-    "url": "default_template_value"
+    "type": "git",
+    "url": "https://github.com/bumbeishvili/custom-powerbi-visuals"
   },
+  "keywords": [
+    "powerbi",
+    "powerbi-visuals",
+    "slicer",
+    "filter",
+    "custom-visual"
+  ],
   "license": "MIT",
   "scripts": {
     "pbiviz": "pbiviz",
@@ -15,14 +23,14 @@
   "dependencies": {
     "@types/d3": "5.7.2",
     "d3": "5.12.0",
-    "powerbi-visuals-utils-dataviewutils": "2.2.1",
-    "powerbi-visuals-api": "~3.8.0"
+    "powerbi-visuals-api": "~4.7.0",
+    "powerbi-visuals-utils-dataviewutils": "2.4.1"
   },
   "devDependencies": {
-    "ts-loader": "9.5.1",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "eslint": "^8.0.0",
+    "ts-loader": "9.5.1",
     "typescript": "5.3.3"
   }
 }

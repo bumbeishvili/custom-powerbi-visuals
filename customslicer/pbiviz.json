@@ -1,1 +1,25 @@
-{"visual":{"name":"customslicer","displayName":"customslicer","guid":"customslicerAE5F8F27F4FD488CA74652D71A18D753","visualClassName":"Visual","version":"1.0.0","description":"","supportUrl":"","gitHubUrl":""},"apiVersion":"3.8.0","author":{"name":"","email":""},"assets":{"icon":"assets/icon.png"},"externalJS":null,"style":"style/visual.less","capabilities":"capabilities.json","dependencies":null,"stringResources":[]}
+{
+    "visual": {
+        "name": "customslicer",
+        "displayName": "Custom Slicer",
+        "guid": "customslicerAE5F8F27F4FD488CA74652D71A18D753",
+        "visualClassName": "Visual",
+        "version": "1.0.0",
+        "description": "A customizable slicer visual with 'All' option and flexible styling. Filter your data with a clean, modern interface.",
+        "supportUrl": "https://github.com/bumbeishvili/custom-powerbi-visuals",
+        "gitHubUrl": "https://github.com/bumbeishvili/custom-powerbi-visuals"
+    },
+    "apiVersion": "4.7.0",
+    "author": {
+        "name": "Dato Bumbeishvili",
+        "email": "davit.bumbeishvili@gmail.com"
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": []
+}

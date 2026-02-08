@@ -11,6 +11,14 @@
             "kind": "Measure"
         }
     ],
+    "privileges":[
+        {
+            "name":"WebAccess"
+        },
+        {
+            "name":"LocalStorage"
+        }
+    ],
     "objects": {
         "dataPoint": {
             "displayName": "Data colors",
@@ -53,6 +61,59 @@
                         "formatting": {
                             "fontSize": true
                         }
+                    }
+                }
+            }
+        },
+        "itemStyleProp": {
+            "displayName": "Item Style",
+            "properties": {
+                "backgroundColor": {
+                    "displayName": "Background Color",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "borderColor": {
+                    "displayName": "Border Color",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "textColor": {
+                    "displayName": "Text Color",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "borderWidth": {
+                    "displayName": "Border Width",
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "padding": {
+                    "displayName": "Padding",
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "margin": {
+                    "displayName": "Margin",
+                    "type": {
+                        "numeric": true
                     }
                 }
             }

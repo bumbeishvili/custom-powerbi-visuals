@@ -1,0 +1,25 @@
+# Build outputs
+.tmp/
+dist/
+node_modules/
+
+# Webpack statistics
+webpack.statistics.dev.html
+webpack.statistics.prod.html
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Certificates
+*.crt
+*.key
+*.pfx
+
+# Logs
+*.log
+npm-debug.log*
